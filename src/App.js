@@ -6,7 +6,7 @@ import TalkToPdfPage from "./containers/StartupProjects/TalkToPdfPage";
 
 const routes = {
   "/shop_net": ShopNetPage,
-  "/talk_to_pdf": TalkToPdfPage,
+  "/talk_to_pdf": TalkToPdfPage
 };
 
 function App() {

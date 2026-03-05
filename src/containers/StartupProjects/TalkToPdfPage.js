@@ -1,5 +1,3 @@
-
-
 const myStaticHTML = `<html lang="en"><head><style data-rc-order="prepend" rc-util-key="@ant-design-icons">
 .anticon {
   display: inline-flex;
@@ -93,9 +91,7 @@ code {
 </body></html>`;
 
 function TalkToPdfPage() {
-  return (
-    <div dangerouslySetInnerHTML={{ __html: myStaticHTML }} />
-  );
+  return <div dangerouslySetInnerHTML={{__html: myStaticHTML}} />;
 }
 
 export default TalkToPdfPage;

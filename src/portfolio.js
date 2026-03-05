@@ -242,7 +242,8 @@ const bigProjects = {
     {
       image: require("./assets/images/shopNet.webp"),
       projectName: "Shop Net",
-      projectDesc: "A distributed React.js + Spring Boot e-commerce system with microservice architecture.",
+      projectDesc:
+        "A distributed React.js + Spring Boot e-commerce system with microservice architecture.",
       footerLink: [
         {
           name: "Visit Website",
