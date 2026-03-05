@@ -26,7 +26,7 @@ const greeting = {
     "An aspiring full-stack software engineer, dedicated to deliver powerful, secure, and scalable enterprise-grade web applications."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1rdQyYVcoemww3Pm8U1UHat6z5Nc-RYzd/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
