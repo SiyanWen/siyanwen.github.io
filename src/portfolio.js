@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Evan",
-  title: "Hi all, I'm Siyan(Evan)",
+  username: "Simon",
+  title: "Hi all, I'm Siyan(Simon)",
   subTitle: emoji(
     "An aspiring full-stack software engineer, dedicated to deliver powerful, secure, and scalable enterprise-grade web applications."
   ),
@@ -209,18 +209,32 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "3D Printing Specialist",
+      company: "3D Print Joy",
+      companylogo: require("./assets/images/3DPrintJoyLogo.png"),
+      date: "Jun 2026 – Current",
+      desc: "Responsibilities include coordinating with operations and warehouse teams, producing 3D-printed items for shipment, and enhancing printing efficiency and quality through model optimization, slicing parameter adjustments, and standardized machine operation."
+    },
+    {
       role: "AI Research Assistant",
       company: "Stevens Institute of Technology",
       companylogo: require("./assets/images/stevensLogo.png"),
       date: "Jan 2025 – May 2025",
-      desc: "Traditional Excel-based annotation workflows are not user-friendly, inefficient and are difficult to monitor the time annotators spend on each question. To address these issues, I developed a Flask web application to accelerate the annotation and result export process."
+      desc: "Responsible for presenting the online annotation interface, crawling and backing up webpages, optimizing prompts, and generating training data for Named Entity Recognition (NER) using the OpenAI API."
+    },
+    {
+      role: "Character Animator",
+      company: "Suzhou Qudou",
+      companylogo: require("./assets/images/QudouLogo.png"),
+      date: "Feb 2022 – Apr 2022",
+      desc: "Engaged in the animation layout, Special Effects illustration and camera movement design of ep10 and ep14, the most challenging parts (fighting scenes) of Westward using Maya 2018."
     },
     {
       role: "E-commerce Operations Specialist",
       company: "Shenzhen Liqian",
       companylogo: require("./assets/images/liqianLogo.png"),
       date: "Oct 2019 – Mar 2021",
-      desc: "Improved conversion rates by SEO (Search Engine Optimization). Two products ranked in the top 10 of of their category on Amazon Japan."
+      desc: "Responsible for Amazon store operations (product listing, promotions, shipping, restocking, FBA, and after-sales service)."
     }
   ]
 };
